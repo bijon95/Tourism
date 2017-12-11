@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BangladeshTourism</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="btnSearch">Search &amp; Book</string>
+
+    <string-array name="country_name">
+
+        <item>Bangladesh</item>
+        <item>India</item>
+
+
+    </string-array>
+</resources>

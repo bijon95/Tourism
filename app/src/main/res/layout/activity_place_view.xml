@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_place_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.example.ayon.projetfile1.PlaceView">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/webView"/>
+
+            <TextView
+                android:textSize="18dp"
+                android:textColor="#0055aa"
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/distTVitm" />
+
+            <TextView
+                android:textColor="#0055aa"
+
+                android:textSize="18dp"
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/placeTVitm" />
+
+
+            <TextView
+                android:textColor="#1d962d"
+
+                android:textSize="18dp"
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailsTVitm" />
+            <TextView
+                android:textSize="18dp"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/latuTVitm" />
+            <TextView
+                android:textSize="18dp"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/longTVitm" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
